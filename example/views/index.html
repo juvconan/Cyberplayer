@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="playercontainer"></div>
+<script type="text/javascript" src="../js/cyberplayer.min.js"></script>
+
+<script type="text/javascript">
+    var player = cyberplayer("playercontainer").setup( {
+        width: 300,
+        height: 300,
+        backcolor: "#FFFFFF",
+        stretching: "uniform",
+        repeat: false,
+        volume: 100,
+        controls: "over",
+        file: 'zjjy.mp4',
+		image:'video.png',
+        autoStart: false
+    });
+</script>
+</body>
+</html>
